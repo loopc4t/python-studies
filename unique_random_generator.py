@@ -16,8 +16,9 @@ try:
         random_number = random.sample(unique_numbers, k=unique_digits)
         print(f"Unique random digits: {random_number}")
 
+
+    unique_random_number_generator()
+
 except ValueError:
     print("Please enter the correct number of digits.")
-
-unique_random_number_generator()
 
