@@ -1,1 +1,5 @@
-print(1 + 2)
+txt = "Company 12"
+
+x = txt.isalnum()
+
+print(x) 
